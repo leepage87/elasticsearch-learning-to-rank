@@ -37,6 +37,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'idea'
 apply plugin: 'elasticsearch.esplugin'
 apply plugin: 'elasticsearch.java-rest-test'
+apply plugin: 'elasticsearch.yaml-rest-test'
 
 checkstyle {
   configFile = rootProject.file('config/checkstyle/checkstyle.xml')
